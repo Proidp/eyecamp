@@ -1,6 +1,7 @@
 /* @import url(//fonts.googleapis.com/earlyaccess/notosansbengali.css); */
 body{
-  font-family: 'Bangla', 'Roboto', sans-serif !important;
+  /* font-family: 'Bangla', 'Roboto', sans-serif !important; */
+  font-family: 'Noto Sans Bengali', sans-serif;
 }
 
 .navbar .left-side.logo img{
@@ -70,3 +71,24 @@ body{
   font-size: 1.5rem;
   font-family: 'Noto Sans Bengali', sans-serif;
 } */
+
+@media (max-width:767px) {
+  .navbar{
+    padding: 0 !important;
+  }
+  .navbar .left-side.logo img {
+    width: 50px;
+    height: auto;
+}
+  .navbar .right-side.logo img {
+    width: 220px;
+    height: auto;
+}
+}
+@media (max-width:320px) {
+  .navbar .left-side.logo img {
+    width: 30px;
+    height: auto;
+}
+
+}
