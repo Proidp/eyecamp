@@ -1,0 +1,71 @@
+/* @import url(//fonts.googleapis.com/earlyaccess/notosansbengali.css); */
+body{
+  font-family: 'Bangla', 'Roboto', sans-serif !important;
+}
+
+.navbar .left-side.logo img{
+  width:80px;
+  height: auto;
+}
+.name-title{
+  color: #ff005c;
+  font-weight: 800;
+}
+.text-content .name-title-2{
+  color: #1F1D59;
+  font-weight: 800;
+}
+.text-content .place{
+  color: green;
+}
+.text-content .date{
+  color: #FF0000;
+}
+.text-content .name{
+  color: #16213E;
+  background-color: lightblue;
+  padding: 20px 0;
+  font-weight: bold;
+}
+.text-content .name-title-3{
+  color: #0F3460;
+}
+/* .flipTimer .days,.flipTimer .hours,.flipTimer .minutes,.flipTimer .seconds{
+  position: relative;
+}
+.flipTimer .days::before{
+  content: 'দিন';
+  position: absolute;
+  top: -5.5rem;
+  z-index: 2;
+  color: #16213E;
+  font-size: 1.5rem;
+  font-family: 'Noto Sans Bengali', sans-serif;
+}
+.flipTimer .hours::before{
+  content: 'ঘন্টা';
+  position: absolute;
+  top: -5.5rem;
+  z-index: 2;
+  color: #16213E;
+  font-size: 1.5rem;
+  font-family: 'Noto Sans Bengali', sans-serif;
+}
+.flipTimer .minutes::before{
+  content: 'মিনিট';
+  position: absolute;
+  top: -5.5rem;
+  z-index: 2;
+  color: #16213E;
+  font-size: 1.5rem;
+  font-family: 'Noto Sans Bengali', sans-serif;
+}
+.flipTimer .seconds::before{
+  content: 'সেকেন্ড';
+  position: absolute;
+  top: -5.5rem;
+  z-index: 2;
+  color: #16213E;
+  font-size: 1.5rem;
+  font-family: 'Noto Sans Bengali', sans-serif;
+} */
