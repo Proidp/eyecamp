@@ -32,46 +32,6 @@ body{
 .text-content .name-title-3{
   color: #0F3460;
 }
-/* .flipTimer .days,.flipTimer .hours,.flipTimer .minutes,.flipTimer .seconds{
-  position: relative;
-}
-.flipTimer .days::before{
-  content: 'দিন';
-  position: absolute;
-  top: -5.5rem;
-  z-index: 2;
-  color: #16213E;
-  font-size: 1.5rem;
-  font-family: 'Noto Sans Bengali', sans-serif;
-}
-.flipTimer .hours::before{
-  content: 'ঘন্টা';
-  position: absolute;
-  top: -5.5rem;
-  z-index: 2;
-  color: #16213E;
-  font-size: 1.5rem;
-  font-family: 'Noto Sans Bengali', sans-serif;
-}
-.flipTimer .minutes::before{
-  content: 'মিনিট';
-  position: absolute;
-  top: -5.5rem;
-  z-index: 2;
-  color: #16213E;
-  font-size: 1.5rem;
-  font-family: 'Noto Sans Bengali', sans-serif;
-}
-.flipTimer .seconds::before{
-  content: 'সেকেন্ড';
-  position: absolute;
-  top: -5.5rem;
-  z-index: 2;
-  color: #16213E;
-  font-size: 1.5rem;
-  font-family: 'Noto Sans Bengali', sans-serif;
-} */
-
 @media (max-width:767px) {
   .navbar{
     padding: 0 !important;
@@ -91,4 +51,71 @@ body{
     height: auto;
 }
 
+}
+
+.timer {
+  font-family: "Roboto";
+  width: 550px;
+  height: 370px;
+  margin: auto;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.timer .flipdown {
+  margin: auto;
+  text-align: center;
+}
+
+.timer h1 {
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.timer .flipdown h2 {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flipdown.flipdown__theme-dark .rotor-group-heading:before {
+  color: #16213E;
+}
+
+.rotor-group-heading {
+  margin-bottom: 10px;
+}
+
+.flipdown.flipdown__theme-dark .rotor-bottom, .flipdown.flipdown__theme-dark .rotor-leaf-rear {
+  color: #16213E;
+  background-color: #bfbfbf;
+}
+
+.flipdown.flipdown__theme-dark .rotor, .flipdown.flipdown__theme-dark .rotor-top, .flipdown.flipdown__theme-dark .rotor-leaf-front {
+  color: #16213E;
+  background-color: #bfbfbf;
+}
+
+.flipdown.flipdown__theme-dark .rotor-group:nth-child(n+2):nth-child(-n+3):before, .flipdown.flipdown__theme-dark .rotor-group:nth-child(n+2):nth-child(-n+3):after {
+  background-color: #bfbfbf;
+}
+
+@media (max-width:320px) {
+  .flipdown .rotor, .flipdown .rotor-leaf, .flipdown .rotor-leaf-front, .flipdown .rotor-leaf-rear, .flipdown .rotor-top, .flipdown .rotor-bottom, .flipdown .rotor:after{
+    width: 28px !important;
+  }
 }
